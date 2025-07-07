@@ -19,19 +19,18 @@ Knowledge used in the project:
 - Database used is MySQL.
 
 ## Result
-- 3D shape of the positioning and anti-theft PCB layer.
+- PCB layout of the system.
   
-![image](https://github.com/user-attachments/assets/172d292d-629b-4b57-853e-ef1ebd6459d8)
+![image](https://github.com/user-attachments/assets/2bec9cd2-37ff-49a2-8b78-b8e95d6f17f4)
 
-![image](https://github.com/user-attachments/assets/cf0b9f07-e95a-42bf-8d6d-3f4359622625)
+- PCB of the device placed at the scale.
 
-- 3D shape of the remote control PCB layer.
+![image](https://github.com/user-attachments/assets/e6abe984-4494-465e-b080-f387433ad407)
 
-![image](https://github.com/user-attachments/assets/fd65eb62-8b5a-4f1d-84d5-d4f4d954369a)
+- The device placed at the scale.
+  
+![image](https://github.com/user-attachments/assets/e6dab6cc-8a36-4ba4-8a9d-a901c5c88fa7)
 
-- Interface for tracking vehicle location history, showing each updated position when a change occurs.
-
-![image](https://github.com/user-attachments/assets/524fa7b6-587c-4355-9ef9-756c41c1abb3)
 
 
 
