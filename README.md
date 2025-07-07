@@ -1,17 +1,32 @@
-# Motorcycle Anti-Theft and GPS Tracking System 
+# Rubber latex volume management system at the purchasing factory
 
 ## Introduction
 
-This is a project about the ESP32 microcontroller, control and location monitoring system for motorcycles.
-- Remote locking/unlocking system using ESP-NOW protocol between two ESP32 modules.
-- Real-time theft detection via vibration sensor (SW420) and buzzer alarm.
-- Location tracking using Quectel EG800K GPS module and 4G network communication. GPS data upload to Firebase Realtime Database via HTTP and SMS.
-- ReactJS-based web interface for viewing real-time location and tracking history on maps.
+This is a project using the ESP32 microcontroller to build an IoT-based rubber latex weight management system at purchasing factories.
+
+Use RFID (MFRC522) for customer identification at each weighing station.
+
+Collect weight data directly from industrial scales via RS232 interface.
+
+Transmit data between scales and central gateway using ESP-NOW protocol for local communication without internet.
+
+Gateway uploads data to a remote database via HTTPS for centralized processing.
+
+Desktop application (C++ Qt framework) allows admins, managers, and customers to manage accounts, prices, and view transaction history.
+
 Knowledge used in the project:
-- Use UART protocol to communicate with Quectel EG800K by AT command.
-- Use ESP-NOW protocol.
-- Database use is Google Firebase.
-- Frontend use is ReactJS framework.
+
+Use UART/RS232 protocol to read weight data from electronic scales.
+
+Use ESP-NOW protocol for fast, lightweight peer-to-peer wireless communication.
+
+Use RFID SPI protocol for contactless card identification.
+
+Use HTTPS protocol to securely upload data to server.
+
+Backend built with FastAPI (Python); frontend desktop app built with Qt (C++).
+
+Database used is MySQL.
 
 ## Result
 - 3D shape of the positioning and anti-theft PCB layer.
